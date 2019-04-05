@@ -1,0 +1,4 @@
+package: devgit.kf.com.br/core/lib-queue
+import:
+  - package: github.com/streadway/amqp
+  - package: github.com/onsi/gomega

@@ -1,0 +1,64 @@
+hash: 1df72fa361fc2379c194d5fa4c5e678f740aeae9255066aba4ec2d41a725ea00
+updated: 2019-03-26T14:14:28.496560201-03:00
+imports:
+- name: github.com/nats-io/go-nats
+  version: 70fe06cee50d4b6f98248d9675fb55f2a3aa7228
+  subpackages:
+  - encoders/builtin
+  - util
+- name: github.com/nats-io/nkeys
+  version: 1546a3320a8f195a5b5c84aef8309377c2e411d5
+- name: github.com/nats-io/nuid
+  version: 3024a71c3cbe30667286099921591e6fcc328230
+- name: github.com/onsi/gomega
+  version: 65fb64232476ad9046e57c26cd0bff3d3a8dc6cd
+  subpackages:
+  - format
+  - internal/assertion
+  - internal/asyncassertion
+  - internal/oraclematcher
+  - internal/testingtsupport
+  - matchers
+  - matchers/support/goraph/bipartitegraph
+  - matchers/support/goraph/edge
+  - matchers/support/goraph/node
+  - matchers/support/goraph/util
+  - types
+- name: github.com/pkg/errors
+  version: ba968bfe8b2f7e042a574c888954fccecfa385b4
+- name: github.com/streadway/amqp
+  version: 14f78b41ce6da3d698c2ef2cc8c0ea7ce9e26688
+- name: golang.org/x/crypto
+  version: a5d413f7728c81fb97d96a2b722368945f651e78
+  subpackages:
+  - ed25519
+  - ed25519/internal/edwards25519
+testImports:
+- name: golang.org/x/net
+  version: 1272bf9dcd53ea65c09668fb4c76e65deb740072
+  subpackages:
+  - html
+  - html/atom
+  - html/charset
+- name: golang.org/x/text
+  version: 5d731a35f4867878fc89f7744f7b6debb3beded6
+  subpackages:
+  - encoding
+  - encoding/charmap
+  - encoding/htmlindex
+  - encoding/internal
+  - encoding/internal/identifier
+  - encoding/japanese
+  - encoding/korean
+  - encoding/simplifiedchinese
+  - encoding/traditionalchinese
+  - encoding/unicode
+  - internal/language
+  - internal/language/compact
+  - internal/tag
+  - internal/utf8internal
+  - language
+  - runes
+  - transform
+- name: gopkg.in/yaml.v2
+  version: 51d6538a90f86fe93ac480b35f37b2be17fef232

@@ -9,4 +9,8 @@
 *.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+.idea/
+/vendor/
+/docker/
+!/docker/docker-compose.yml
+/test/cover/
